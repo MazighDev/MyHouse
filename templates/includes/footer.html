@@ -1,0 +1,28 @@
+<!-- ========================= FOOTER ========================= -->
+<footer class="section-footer border-top" style="background:#f1ab86">
+	<div class="container">
+		<section class="footer-bottom border-top row">
+			<div class="col-md-12 mx-auto" >
+			<p class="text text-center" style="margin-bottom:0px;" >&copy; 2023 CDA	</p>
+				<p class="text text-center"><span  class="px-2 text-center">Site Web E-Commerce</span>
+				<span  class="px-2 text-center"><i class="fa fa-map-marker" aria-hidden="true"></i> ESTYA</span></p>
+			</div>
+			<!-- <div class="col-md-8 text-md-center">
+
+			</div> -->
+		</section>
+	</div><!-- //container -->
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.thumb a').click(function(e){
+			e.preventDefault();
+			$('.mainImage img').attr('src',$(this).attr("href"));
+		})
+	})
+</script>
+</body>
+
+</html>
